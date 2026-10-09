@@ -13,6 +13,8 @@ int main() {
 	float potreblenie, sum;
 	cin >> code;
 	cin >> potreblenie;
+	if (potreblenie < 0)
+		return 1;
 	switch (code) {
 	case 'h':
 	case 'H':
